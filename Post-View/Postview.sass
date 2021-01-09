@@ -1,0 +1,172 @@
+$orange:#FA6400
+
+*
+    margin: 0px
+    padding: 0px
+    box-sizing: border-box
+body
+    margin-top: 0px
+.grid-container
+    display: grid
+    grid-template-columns: 0.35fr 3fr 0.35fr
+    grid-template-rows: 75px 1fr 1fr auto
+.navbar
+    display: grid
+    grid-template-columns: 0.35fr 3fr 0.35fr
+    grid-template-rows: 75px 
+    grid-column: 1/-1
+    background-color: #FA6400
+    align-items: center
+    #levelop
+        grid-column: 2/3
+        grid-row: 1
+.new-post
+    display: flex
+    justify-content: center
+    align-items: center
+    justify-self: end
+    width: 162px
+    height: 42px
+    background-color: #ffffff
+    border-radius: 5px
+    grid-column: 2
+    grid-row: 1
+.title
+    margin-top: 4vh
+    grid-column: 2/3
+    font-family: Poppins
+    font-style: normal
+    font-weight: 600
+    font-size: 36px
+    letter-spacing: 0.3px
+    color: #FA6400
+    border-bottom: 2px solid $orange
+.author
+    margin-top: 2vh
+    display: grid
+    grid-column: 2
+    grid-row: 3
+.articleinfo
+    display: flex
+    justify-content: space-between
+.postinfo
+    display: flex
+.nameanddate
+    margin-left: 1vw
+.profilepic
+    width: 48px
+    height: 48px
+    border-radius: 50px
+    background-color: $orange
+#authorname
+    font-family: Poppins
+    font-style: normal
+    font-weight: 500
+    font-size: 18px
+    letter-spacing: 0.3px
+    color: #000000
+#posttime
+    font-family: Poppins
+    font-style: normal
+    font-weight: normal
+    font-size: 16px
+    letter-spacing: 0.3px
+    color: #505050
+.appreciate
+    display: flex
+    grid-row: 2
+    width: 13vw
+    justify-content: space-evenly
+.articlecontent
+    grid-row: 4
+    grid-column: 2/3
+    h1
+        font-family: Poppins
+        font-weight: 600
+        font-size: 30px
+        margin-bottom: 2vh
+    p
+        font-family: Poppins
+        font-weight: 400
+        font-size: 20px
+        margin-bottom: 2vh
+.commentsarea
+    display: grid
+    grid-column: 2
+    grid-row: 5
+    #h1comment
+        font-family: Poppins
+        font-style: normal
+        font-weight: 600
+        font-size: 40px
+        letter-spacing: 0.3px
+        color: #FA6400
+.addcommentarea
+    display: grid
+    margin-top: 5vh
+    padding-bottom: 3vh
+    border-bottom: 0.5px solid rgba(250, 100, 0, 0.5)
+#commentbar
+    display: flex
+    width: 1050px
+    height: 55px
+    background: rgba(250, 100, 0, 0.1)
+    font-family: Poppins
+    font-weight: 300
+    font-size: 15px
+    letter-spacing: 0.3px
+    color: rgba(80, 80, 80, 0.5)
+    border: none
+    border-radius: 7px
+    padding-left: 1vw
+#submitbutton
+    display: flex
+    align-items: center
+    justify-content: center
+    width: 150px
+    height: 55px
+    background: #FA6400
+    border-radius: 4px
+    grid-row: 1
+    grid-column: 3
+    font-family: Poppins
+    font-weight: 600
+    font-size: 20px
+    letter-spacing: 0.3px
+    color: #FFFDF8
+    text-decoration: none
+.commentinfo
+    display: flex
+    grid-row: 3
+    margin-top: 10vh
+    margin-bottom: 12vh
+    padding-bottom: 3vh
+    border-bottom: 0.5px solid rgba(250, 100, 0, 0.5)
+#profilepics
+    width: 64px
+    height: 64px
+    border-radius: 50px
+.commentnameanddate
+    margin-left: 1vw
+#commentname
+    font-family: Poppins
+    font-weight: 600
+    font-size: 23px
+    letter-spacing: 0.3px
+    color: #505050
+.comment
+    grid-row: 6
+    width: 67.9vw
+    margin-top: 0.5vh
+    font-family: Poppins
+    font-size: 17px
+    letter-spacing: 0.3px
+    color: #505050
+.date
+    grid-row: 3
+    font-family: Poppins
+    font-style: normal
+    font-weight: normal
+    font-size: 16px
+    letter-spacing: 0.3px
+    color: #505050
